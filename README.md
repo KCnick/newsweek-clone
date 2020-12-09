@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kcnick.github.io/newsweek-clone/)
 
 ## Getting Started
 
@@ -30,10 +30,6 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - GitHub: [@KCnick](https://github.com/KCnick)
-
-👤 **Author2**
-
-- GitHub: [@Jebitok-dev](https://github.com/Jebitok-dev)
 
 ## 🤝 Contributing
 
