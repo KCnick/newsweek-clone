@@ -43,7 +43,7 @@ header a:hover {
 }
 #title {
   font-size: 2em;
-  font-family: 'Rokkitt', serif;
+  font-family: "Rokkitt", serif;
   line-height: 1.5;
   font-weight: bold;
 }
@@ -52,7 +52,7 @@ header a:hover {
 }
 #login,
 #subscribe-btn {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -65,7 +65,7 @@ header a:hover {
 #hamburger {
   font-size: 1em;
   color: #fff;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 /* NAV */
@@ -75,7 +75,7 @@ header a:hover {
 }
 #nav-1 > span {
   color: #999;
-  font-size: .5em;
+  font-size: 0.5em;
   font-weight: normal;
   border-right: 1px solid #ddd;
 }
@@ -85,8 +85,8 @@ header a:hover {
 }
 #nav-1 > a:hover,
 #nav-2 > a:hover {
- color: var(--nw-red);
- text-decoration: none;
+  color: var(--nw-red);
+  text-decoration: none;
 }
 #nav-1 {
   font-size: 1.1em;
@@ -102,14 +102,14 @@ header a:hover {
 #nav-2 > * {
   text-transform: uppercase;
   line-height: 0;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 #nav-2 > a {
   color: #999;
 }
 #pretty-bar-1 {
   height: 14px;
-  background: linear-gradient(to right,#ddd,#fff);
+  background: linear-gradient(to right, #ddd, #fff);
 }
 #pretty-bar-2 {
   height: 6px;
@@ -146,7 +146,7 @@ header a:hover {
 #culture-travel .card-text {
   padding: 2px 5px !important;
   color: #333;
-  font-size: .7em;
+  font-size: 0.7em;
   font-weight: bold;
   background-color: rgb(166, 196, 196);
 }
@@ -164,19 +164,19 @@ header a:hover {
 }
 #more-stories p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 #the-debate .content,
 #opinion .content {
   padding-left: 1em;
 }
 #the-debate article:last-of-type div {
-  padding-left:0;
+  padding-left: 0;
   padding-right: 1em;
 }
 #the-debate h5,
 #opinion h5 {
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: bold;
 }
 #the-debate p,
@@ -184,7 +184,7 @@ header a:hover {
   text-transform: uppercase;
   color: #555;
   font-weight: bold;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 #the-debate a:hover,
 #opinion a:hover {
@@ -243,7 +243,7 @@ header a:hover {
 
 /* CARD */
 
-.card{
+.card {
   border: none;
   border-radius: 0;
   width: 100%;
@@ -288,7 +288,7 @@ header a:hover {
 }
 #editors-pick span {
   padding: 0 8px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   font-size: 1.3em;
   background-color: var(--nw-red);
   color: #fff;
@@ -371,7 +371,7 @@ header a:hover {
 #subscribe .content p,
 #newsletter .content p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 #subscribe button,
 #newsletter input:last-child {
@@ -380,7 +380,7 @@ header a:hover {
   text-transform: uppercase;
   font-weight: bold;
 }
-#newsletter .content{
+#newsletter .content {
   padding-top: 50px;
   border: 1px solid #ccc;
   border-radius: 2px;
@@ -411,7 +411,7 @@ footer > * {
   padding-left: 0;
 }
 footer .top > a {
-  font-family: 'Rokkitt', serif;
+  font-family: "Rokkitt", serif;
   color: var(--nw-red);
   font-weight: bold;
   font-size: 3em;
@@ -424,18 +424,18 @@ footer .top span {
   margin-left: 2em;
   font-family: Arial, Helvetica, sans-serif;
   color: #999;
-  font-size: .8em;
+  font-size: 0.8em;
   text-transform: uppercase;
   white-space: nowrap;
 }
 footer .top li {
   font-size: 25px;
-  letter-spacing: .5em;
+  letter-spacing: 0.5em;
 }
 footer li {
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
   white-space: nowrap;
   color: #777;
 }
@@ -450,23 +450,22 @@ footer li > a:hover {
   font-weight: bold;
   color: #333;
 }
-#editions > li, 
+#editions > li,
 #menu > li {
   border-left: 1px solid #ccc;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 #editions > li:first-child,
-#editions > li:nth-child(2), 
+#editions > li:nth-child(2),
 #menu > li:first-child {
   border-left: none;
-  padding-left: 0;  
+  padding-left: 0;
 }
 
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
-
   #title {
     line-height: 1;
   }
@@ -491,7 +490,6 @@ footer li > a:hover {
 }
 
 @media (min-width: 992px) {
-
   header {
     position: static;
     height: 95px;
